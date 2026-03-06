@@ -145,15 +145,13 @@ The expert system can:
 
 ---
 
-# Roles and Responsibilities
+## Roles and Responsibilities
 
-| Role                | Responsibility                                                   |
-| ------------------- | ---------------------------------------------------------------- |
-| Knowledge Engineers | Research nutrition information and convert it into logical rules |
-| Prolog Developers   | Implement the knowledge base and inference logic                 |
-| Frontend Developers | Build the React user interface                                   |
-| Documentation Team  | Prepare knowledge engineering documentation                      |
-| Testing Team        | Verify system responses using test cases                         |
+| Role | Responsibility |
+|-----|---------------|
+| Project Manager | Oversees the project progress, coordinates team activities, ensures deadlines are met, and manages communication within the team. |
+| Knowledge Engineers | Responsible for researching credible nutrition and medical sources and translating the acquired knowledge into logical facts and rules in the Prolog knowledge base. |
+| Programmers | Responsible for implementing the system, including the React interface, integrating the Prolog knowledge base, and ensuring the system correctly maps user inputs to intelligent outputs. |
 
 ---
 
