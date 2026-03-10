@@ -19,7 +19,7 @@ function App() {
           {/* Left Column: Text Content */}
           <div className="flex-1 text-center md:text-left animate-fade-in-up">
             <div className="inline-block px-4 py-2 mb-6 rounded-full bg-sea-blue/10 border border-sea-blue/20 text-sea-blue font-semibold text-xs sm:text-sm shadow-sm">
-              ✨ AI Powered Nutrition Assistance
+              ✨ AI-Powered Nutrition Intelligence
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-7xl font-extrabold mb-6 leading-[1.15] text-slate-900 tracking-tight">
               Transform Your Health with{' '}
