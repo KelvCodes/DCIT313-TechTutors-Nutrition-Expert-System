@@ -1,4 +1,5 @@
 import { IoChatbubbleEllipsesOutline, IoBulbOutline, IoDocumentTextOutline, IoTrendingUpOutline } from 'react-icons/io5';
+import { useNavigate } from 'react-router-dom';
 
 const steps = [
     {
@@ -28,6 +29,8 @@ const steps = [
 ];
 
 const HowItWorks = () => {
+    const navigate = useNavigate();
+
     return (
         <section id="how-it-works" className="py-16 sm:py-28 px-4 sm:px-8 relative overflow-hidden" style={{ background: 'linear-gradient(160deg, #0a1628 0%, #0c2a4a 50%, #0d3b6e 100%)' }}>
             {/* Large centered glow */}
@@ -118,7 +121,9 @@ const HowItWorks = () => {
                 {/* Bottom CTA */}
                 <div className="mt-24 text-center">
                     <p className="mb-6 text-lg" style={{ color: '#93c5fd' }}>Ready to transform your nutrition?</p>
-                    <button className="text-white px-10 py-4 rounded-2xl font-bold text-lg shadow-2xl transition-all hover:-translate-y-1"
+                    <button 
+                        onClick={() => navigate('/consult')}
+                        className="text-white px-10 py-4 rounded-2xl font-bold text-lg shadow-2xl transition-all hover:-translate-y-1"
                         style={{ background: 'linear-gradient(135deg, #0ea5e9, #06b6d4)', boxShadow: '0 8px 32px rgba(14,165,233,0.4)' }}>
                         Get Started — It's Free ✨
                     </button>
