@@ -1,4 +1,5 @@
 import { IoGitBranchOutline, IoFlashOutline, IoPersonOutline, IoLockClosedOutline } from 'react-icons/io5';
+import { useNavigate } from 'react-router-dom';
 
 const messages = [
     {
@@ -24,6 +25,8 @@ const messages = [
 ];
 
 const ChatDemo = () => {
+    const navigate = useNavigate();
+
     return (
         <section id="about" className="py-16 sm:py-24 px-0 sm:px-8">
             <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
@@ -65,11 +68,15 @@ const ChatDemo = () => {
 
                     {/* Eye-catching CTA */}
                     <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 pt-2 justify-center lg:justify-start">
-                        <button className="relative overflow-hidden bg-gradient-sea text-white px-7 py-3.5 sm:px-8 sm:py-4 rounded-2xl font-bold text-base sm:text-lg shadow-xl hover:shadow-sea-blue/40 hover:-translate-y-1 transition-all group">
+                        <button 
+                            onClick={() => navigate('/consult')}
+                            className="relative overflow-hidden bg-gradient-sea text-white px-7 py-3.5 sm:px-8 sm:py-4 rounded-2xl font-bold text-base sm:text-lg shadow-xl hover:shadow-sea-blue/40 hover:-translate-y-1 transition-all group">
                             <span className="relative z-10">Try It Now — It's Free</span>
                             <span className="absolute inset-0 bg-white/10 translate-x-full group-hover:translate-x-0 transition-transform duration-300 skew-x-[-20deg]" />
                         </button>
-                        <button className="flex items-center justify-center gap-2 px-7 py-3.5 sm:px-8 sm:py-4 rounded-2xl font-semibold text-sea-blue border-2 border-sea-blue/20 bg-white hover:bg-sea-blue/5 transition-all">
+                        <button 
+                            onClick={() => document.getElementById('how-it-works')?.scrollIntoView({ behavior: 'smooth' })}
+                            className="flex items-center justify-center gap-2 px-7 py-3.5 sm:px-8 sm:py-4 rounded-2xl font-semibold text-sea-blue border-2 border-sea-blue/20 bg-white hover:bg-sea-blue/5 transition-all">
                             <span>Learn More</span>
                             <span className="text-lg">→</span>
                         </button>
