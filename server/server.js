@@ -53,8 +53,12 @@ app.post('/api/diet', (req, res) => {
             return res.status(400).json({ error: 'Missing required profile information.' });
         }
 
+        // Fix: Users often input height in cm (e.g. 175) instead of meters (e.g. 1.75)
+        // This causes the BMI to be incredibly small, resulting in 0.00, and BMR to be huge.
+        const normalizedHeight = height > 3 ? height / 100 : height;
+
         const allergiesList = formatList(allergies);
-        const query = `generate_diet(${age}, ${gender}, ${weight}, ${height}, ${activity}, ${goal}, ${allergiesList}).`;
+        const query = `generate_diet(${age}, ${gender}, ${weight}, ${normalizedHeight}, ${activity}, ${goal}, ${allergiesList}).`;
         
         runPrologQuery(query, res);
     } catch (error) {
