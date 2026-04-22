@@ -1,6 +1,12 @@
 
 # DCIT313 - Group Tech Tutors - Nutrition Expert System
 
+| Component | Directory | 
+|----------|----------|
+| Knowledge Base | `/knowledge_base` | 
+| Interface | `/interface` | 
+| Documentation | `/docs` | 
+
 ## Project Overview
 
 The **Nutrition Expert System** is a Knowledge-Based System (KBS) designed to provide intelligent nutritional guidance based on user inputs such as **age range, allergies, and symptoms**.
