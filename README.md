@@ -8,8 +8,8 @@
 | Boadu-Acheampong, Asante Yaw [asante-y]   |            |
 | Ametefe, Elijah Kwadwo [Elijahamet]       |            |
 | Frank Bless [frank-bless]                 |            |
-| Justice Tieku [justice-tieku]             |            |
-| Adjei Caleb [KAY-22-ux]                   |            |
+| Justice Tieku [justice-tieku]             |  22105235          |
+| Adjei Caleb [KAY-22-ux]                   | 22040866          |
 
 ## Project Overview
 
