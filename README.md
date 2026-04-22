@@ -1,11 +1,15 @@
 
 # DCIT313 - Group Tech Tutors - Nutrition Expert System
 
-| Component | Directory | 
+| # NAME | ID | 
 |----------|----------|
-| Knowledge Base | `/knowledge_base` | 
-| Interface | `/interface` | 
-| Documentation | `/docs` | 
+| AGYARE KELVIN YEBOAH| 22159683 | 
+| AMETEFE ELIJAH KWADWO | `/interface` | 
+| ADJEI CALEB | `/docs` | 
+| BOADU-ACHEAMPONG YAW ASANTE | `/docs` | 
+| GUDU ANTHONY | `/docs` | 
+| TIEKU JUSTICE | `/docs` |
+| TSETSE BLESS FRANK KOFI | `/docs` | 
 
 ## Project Overview
 
