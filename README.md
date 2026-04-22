@@ -7,7 +7,7 @@
 | Anthony Gudu [agudu50]                    | 22014087           |
 | Boadu-Acheampong, Asante Yaw [asante-y]   | 22152286           |
 | Ametefe, Elijah Kwadwo [Elijahamet]       | 22040783           |
-| Frank Bless [frank-bless]                 |            |
+| Frank Bless [frank-bless]                 |  22027295          |
 | Justice Tieku [justice-tieku]             |  22105235          |
 | Adjei Caleb [KAY-22-ux]                   | 22040866          |
 
