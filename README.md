@@ -1,15 +1,15 @@
 
 # DCIT313 - Group Tech Tutors - Nutrition Expert System
 
-| **NAME** | **ID** | 
-|----------|----------|
-| AGYARE KELVIN YEBOAH [KelvCodes] | 22159683 | 
-| AMETEFE ELIJAH KWADWO | `/interface` | 
-| ADJEI CALEB | `/docs` | 
-| BOADU-ACHEAMPONG YAW ASANTE | 2215 | 
-| GUDU ANTHONY | `/docs` | 
-| TIEKU JUSTICE | `/docs` |
-| TSETSE BLESS FRANK KOFI | `/docs` | 
+| Name [GitHub Username]                     | Student ID |
+|-------------------------------------------|------------|
+| Kelvin Agyare Yeboah [KelvCodes]          |  22159683          |
+| Anthony Gudu [agudu50]                    |            |
+| Boadu-Acheampong, Asante Yaw [asante-y]   |            |
+| Ametefe, Elijah Kwadwo [Elijahamet]       |            |
+| Frank Bless [frank-bless]                 |            |
+| Justice Tieku [justice-tieku]             |            |
+| Adjei Caleb [KAY-22-ux]                   |            |
 
 ## Project Overview
 
