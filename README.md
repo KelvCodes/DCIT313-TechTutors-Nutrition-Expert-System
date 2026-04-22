@@ -1,7 +1,7 @@
 
 # DCIT313 - Group Tech Tutors - Nutrition Expert System
 
-| # NAME | ID | 
+| NAME | ID | 
 |----------|----------|
 | AGYARE KELVIN YEBOAH| 22159683 | 
 | AMETEFE ELIJAH KWADWO | `/interface` | 
