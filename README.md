@@ -4,7 +4,7 @@
 | Name [GitHub Username]                     | Student ID |
 |-------------------------------------------|------------|
 | Kelvin Agyare Yeboah [KelvCodes]          |  22159683          |
-| Anthony Gudu [agudu50]                    |            |
+| Anthony Gudu [agudu50]                    | 22014087           |
 | Boadu-Acheampong, Asante Yaw [asante-y]   |            |
 | Ametefe, Elijah Kwadwo [Elijahamet]       | 22040783           |
 | Frank Bless [frank-bless]                 |            |
