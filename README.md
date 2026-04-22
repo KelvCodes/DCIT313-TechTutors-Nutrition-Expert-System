@@ -5,7 +5,7 @@
 |-------------------------------------------|------------|
 | Kelvin Agyare Yeboah [KelvCodes]          |  22159683          |
 | Anthony Gudu [agudu50]                    | 22014087           |
-| Boadu-Acheampong, Asante Yaw [asante-y]   |            |
+| Boadu-Acheampong, Asante Yaw [asante-y]   | 22152286           |
 | Ametefe, Elijah Kwadwo [Elijahamet]       | 22040783           |
 | Frank Bless [frank-bless]                 |            |
 | Justice Tieku [justice-tieku]             |  22105235          |
